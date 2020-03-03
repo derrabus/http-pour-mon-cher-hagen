@@ -1,0 +1,17 @@
+{
+    "name": "derrabus/http-pour-mon-cher-hagen",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "symfony/http-client": "^5.0",
+        "symfony/error-handler": "^5.0",
+        "symfony/var-dumper": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander M. Turek",
+            "email": "me@derrabus.de"
+        }
+    ]
+}
