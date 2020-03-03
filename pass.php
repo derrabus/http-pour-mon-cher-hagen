@@ -11,4 +11,5 @@ ErrorHandler::register();
 $client = HttpClient::create();
 $response = $client->request('HEAD', 'https://httpbin.org/status/400');
 
+VarDumper::dump($response->getStatusCode());
 VarDumper::dump($response->getHeaders(false));
